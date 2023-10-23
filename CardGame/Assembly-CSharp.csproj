@@ -58,8 +58,11 @@
     <Analyzer Include="E:\Unity\Editor\2022.3.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DrawCard.cs" />
-    <Compile Include="Assets\Scripts\DeckUpdator.cs" />
+    <Compile Include="Assets\Scripts\AttackCard.cs" />
+    <Compile Include="Assets\Scripts\SpawnManagerScriptableObject.cs" />
+    <Compile Include="Assets\Scripts\CardInfo.cs" />
+    <Compile Include="Assets\Scripts\CardSpawner.cs" />
+    <Compile Include="Assets\Scripts\CardCreation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
