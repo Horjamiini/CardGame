@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 92
+=======
+  controlID: 94
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +227,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 51
+=======
+  controlID: 41
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,9 +344,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 321e0000
     m_LastClickedID: 7730
     m_ExpandedIDs: 00000000361e0000425a000000ca9a3b
+=======
+    m_SelectedIDs: 98590000
+    m_LastClickedID: 22936
+    m_ExpandedIDs: 000000009059000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +380,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000425a0000
+=======
+    m_ExpandedIDs: 0000000090590000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +411,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -508,7 +526,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 321e0000
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: ea91ffffc8c1ffff88c5ffff66ecffff72f2ffffb8f9ffff
+=======
+      m_ExpandedIDs: 30fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1042,7 +1064,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.013312365, y: -0.006402202, z: 0.000039337647, w: -0.9998775}
     speed: 2
+<<<<<<< Updated upstream
     m_Value: {x: -0.013312544, y: -0.0064022876, z: 0.000039338174, w: -0.9998909}
+=======
+    m_Value: {x: -0.14824858, y: -0.011275742, z: 0.0016815473, w: -0.9888421}
+>>>>>>> Stashed changes
   m_Size:
     m_Target: 410.00446
     speed: 2
