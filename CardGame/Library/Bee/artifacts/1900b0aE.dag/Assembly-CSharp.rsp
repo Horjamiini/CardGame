@@ -355,7 +355,12 @@
 "Assets/Scripts/AttackCard.cs"
 "Assets/Scripts/CardCreation.cs"
 "Assets/Scripts/CardInfo.cs"
-"Assets/Scripts/CardSpawner.cs"
+"Assets/Scripts/New Folder/Dagger.cs"
+"Assets/Scripts/New Folder/Interfaces.cs"
+"Assets/Scripts/New Folder/Mace.cs"
+"Assets/Scripts/New Folder/Sword.cs"
+"Assets/Scripts/New Folder/TestWeapons.cs"
+"Assets/Scripts/New Folder/Weapon.cs"
 "Assets/Scripts/SpawnManagerScriptableObject.cs"
 -langversion:9.0
 
