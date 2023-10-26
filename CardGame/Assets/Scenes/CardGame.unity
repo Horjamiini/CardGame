@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -230,6 +230,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &139467238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 364306805202784520, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_Name
+      value: CardFace
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072581422897592827, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 364306805202784520, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884282293}
+  m_SourcePrefab: {fileID: 100100000, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
 --- !u!1 &179680279
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +785,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &747251495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1811077631205425318, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+  m_PrefabInstance: {fileID: 139467238}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &766268187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1093,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750648734}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1884282292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 364306805202784520, guid: 4132e72aa5d78954f98346b189b6e6c0, type: 3}
+  m_PrefabInstance: {fileID: 139467238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884282293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884282292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc120fffa9b55b341bf6ac69f1a010e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackcardData: {fileID: 11400000, guid: 4072c02b00509d24b9f6543337ff11e4, type: 2}
+  gameobject: {fileID: 747251495}
 --- !u!1 &1977184386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,3 +1226,4 @@ SceneRoots:
   - {fileID: 766268191}
   - {fileID: 578153793}
   - {fileID: 6396408}
+  - {fileID: 139467238}

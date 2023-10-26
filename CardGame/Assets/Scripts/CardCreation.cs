@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardCreation : MonoBehaviour
 {
-    GameObject card;
+    public AttackCard attackcardData;
 
-    
+    public GameObject gameobject;
     // Start is called before the first frame update
     void Start()
     {
-        card = GetComponent<GameObject>();
-       Debug.Log(card.name);
+       
+        
     }
 
     // Update is called once per frame
