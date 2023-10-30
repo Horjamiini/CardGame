@@ -61,11 +61,11 @@
     <Compile Include="Assets\Scripts\New Folder\Mace.cs" />
     <Compile Include="Assets\Scripts\New Folder\Dagger.cs" />
     <Compile Include="Assets\Scripts\New Folder\Interfaces.cs" />
-    <Compile Include="Assets\Scripts\AttackCard.cs" />
-    <Compile Include="Assets\Scripts\SpawnManagerScriptableObject.cs" />
+    <Compile Include="Assets\Scripts\CardHandler.cs" />
     <Compile Include="Assets\Scripts\CardInfo.cs" />
     <Compile Include="Assets\Scripts\New Folder\Weapon.cs" />
-    <Compile Include="Assets\Scripts\CardCreation.cs" />
+    <Compile Include="Assets\Scripts\CardSpawner.cs" />
+    <Compile Include="Assets\Scripts\CardManager.cs" />
     <Compile Include="Assets\Scripts\New Folder\Sword.cs" />
     <Compile Include="Assets\Scripts\New Folder\TestWeapons.cs" />
   </ItemGroup>
