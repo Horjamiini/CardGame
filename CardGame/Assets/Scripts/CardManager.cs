@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +12,7 @@ public class CardManager : MonoBehaviour
     public GameObject cardPrefab;
 
     public Transform cardSpawnPoint;
-
+    
     public void DrawCard()
     {
         CardInfo drawnCard = GetRandomCard();
@@ -21,6 +23,7 @@ public class CardManager : MonoBehaviour
         if (cardHandler != null)
         {
             cardHandler.UpdateCardUI(drawnCard);
+            
         }
         else
         {
@@ -33,4 +36,5 @@ public class CardManager : MonoBehaviour
         int rnd = Random.Range(0, cards.Length);
         return cards[rnd];
     }
+
 }
