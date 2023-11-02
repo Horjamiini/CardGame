@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 2845795862164758775}
   - component: {fileID: 6725793376094088509}
   - component: {fileID: 1663771037282986960}
-  - component: {fileID: 1981050565299079461}
+  - component: {fileID: 4682758403148964353}
   m_Layer: 0
   m_Name: CardFace
   m_TagString: Untagged
@@ -232,7 +232,7 @@ MonoBehaviour:
   cardNameText: {fileID: 2548772263648639108}
   cardDescText: {fileID: 2415708766821344312}
   cardEnergyText: {fileID: 6912353096229497199}
---- !u!114 &1981050565299079461
+--- !u!114 &4682758403148964353
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -241,10 +241,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 364306805202784520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c255b55714e4bce4a900483c4897cda5, type: 3}
+  m_Script: {fileID: 11500000, guid: 51d6da2b82824ba4396cab1f8a58b9b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camerapos: {fileID: 0}
+  speed: 20
+  cardOffset: -5
 --- !u!1 &1376423500408976468
 GameObject:
   m_ObjectHideFlags: 0
