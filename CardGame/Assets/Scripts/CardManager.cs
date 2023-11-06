@@ -8,16 +8,20 @@ using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
 {
-    public CardInfo[] cards;
-    public GameObject cardPrefab; 
+    
+    public GameObject cardPrefab;
+    public DeckManager deckManager;
     public Transform cardSpawnPoint;
     public float horizontalSpacing = 1f;
     public float verticalSpacing = 1f;
     public float cardWidth = 100f;
-
+    
+    
     public void DrawCard()
     {
-        CardInfo drawnCard = GetRandomCard();
+    
+        CardInfo drawnCard = deckManager.GetRandomCard();
+
         GameObject gameObject = Instantiate(cardPrefab, CardPosition(), Quaternion.identity);
 
         gameObject.transform.SetParent(transform);
@@ -33,7 +37,7 @@ public class CardManager : MonoBehaviour
             Debug.Log("Component not found!");
         }
     }
-
+    
     private Vector3 CardPosition()
     {
 
@@ -41,8 +45,6 @@ public class CardManager : MonoBehaviour
         int row = totalCards / NumberOfColumns();
         int column = totalCards % NumberOfColumns();
         Debug.Log(totalCards);
-        Debug.Log(row);
-        Debug.Log(column);
         float xPos = cardSpawnPoint.position.x + column * (cardWidth + horizontalSpacing);
         float yPos = cardSpawnPoint.position.y - row * (cardWidth + verticalSpacing);
 
@@ -55,11 +57,4 @@ public class CardManager : MonoBehaviour
         int numberOfColumns = Mathf.FloorToInt(screenWidth / (cardWidth + horizontalSpacing));
         return numberOfColumns;
     }
-
-    private CardInfo GetRandomCard()
-    {
-        int rnd = Random.Range(0, cards.Length);
-        return cards[rnd];
-    }
-
 }
