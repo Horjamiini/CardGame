@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeckManager : MonoBehaviour
 {
     public List<CardInfo> playerDeck = new List<CardInfo>();
-    [SerializeField]private List<CardInfo> playerDiscardDeck = new List<CardInfo>();
+    public List<CardInfo> playerDiscardDeck = new List<CardInfo>();
 
     // Start is called before the first frame update
     void Start()
