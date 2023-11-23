@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  cardOffset: -7
+  cardOffset: -12
 --- !u!1 &1376423500408976468
 GameObject:
   m_ObjectHideFlags: 0

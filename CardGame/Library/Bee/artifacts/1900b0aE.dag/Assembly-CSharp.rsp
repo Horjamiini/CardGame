@@ -356,6 +356,7 @@
 "Assets/Scripts/DeckManager.cs"
 "Assets/Scripts/EnemyInfo.cs"
 "Assets/Scripts/MoveCard.cs"
+"Assets/Scripts/RayCastHandler.cs"
 "Assets/Scripts/UIHandler.cs"
 -langversion:9.0
 
