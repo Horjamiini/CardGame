@@ -109,9 +109,10 @@ GameObject:
   - component: {fileID: 3072581422897592827}
   - component: {fileID: 2884515528709560654}
   - component: {fileID: 2845795862164758775}
-  - component: {fileID: 6725793376094088509}
   - component: {fileID: 1663771037282986960}
   - component: {fileID: 4682758403148964353}
+  - component: {fileID: 2553341565246887012}
+  - component: {fileID: 6607514124200250919}
   m_Layer: 0
   m_Name: CardFace
   m_TagString: Untagged
@@ -186,20 +187,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6725793376094088509
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364306805202784520}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &1663771037282986960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +217,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   cardOffset: -12
+--- !u!65 &2553341565246887012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364306805202784520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0}
+  m_Center: {x: -0.00030117037, y: 0, z: 3.0616168e-17}
+--- !u!114 &6607514124200250919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364306805202784520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda54f0a2e9f5f94d802348bcd908a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckmanager: {fileID: 0}
 --- !u!1 &1376423500408976468
 GameObject:
   m_ObjectHideFlags: 0

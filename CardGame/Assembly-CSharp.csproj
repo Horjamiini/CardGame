@@ -59,12 +59,13 @@
     <Compile Include="Assets\Scripts\CardInfo.cs" />
     <Compile Include="Assets\Scripts\DeckManager.cs" />
     <Compile Include="Assets\Scripts\CardSpawner.cs" />
-    <Compile Include="Assets\Scripts\EnemyInfo.cs" />
     <Compile Include="Assets\Scripts\CardManager.cs" />
-    <Compile Include="Assets\Scripts\CardHandler.cs" />
+    <Compile Include="Assets\Scripts\CardDataHandler.cs" />
+    <Compile Include="Assets\Scripts\CardAction.cs" />
     <Compile Include="Assets\Scripts\MoveCard.cs" />
+    <Compile Include="Assets\Scripts\CardActionHandler.cs" />
     <Compile Include="Assets\Scripts\UIHandler.cs" />
-    <Compile Include="Assets\Scripts\RayCastHandler.cs" />
+    <Compile Include="Assets\Scripts\ShuffleAndDraw.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -750,13 +751,13 @@
       <Project>{D4D9D091-8EAF-6DA6-E903-79944B8E8770}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{52ACD03D-91F5-25D9-9D69-49299ED4E6FB}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{EEE8F5C4-F587-BF5D-24A4-832949B7AF14}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{52ACD03D-91F5-25D9-9D69-49299ED4E6FB}</Project>
+      <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{13CD7D30-20C9-D4C6-9092-D1FD3A6BE6BC}</Project>

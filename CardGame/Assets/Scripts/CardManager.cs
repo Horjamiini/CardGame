@@ -26,7 +26,7 @@ public class CardManager : MonoBehaviour
 
         gameObject.transform.SetParent(transform);
 
-        CardHandler cardHandler = gameObject.GetComponent<CardHandler>();
+        CardDataHandler cardHandler = gameObject.GetComponent<CardDataHandler>();
         if (cardHandler != null)
         {
             cardHandler.UpdateCardUI(drawnCard);

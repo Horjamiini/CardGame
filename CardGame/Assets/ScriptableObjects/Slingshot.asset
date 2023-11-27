@@ -16,3 +16,4 @@ MonoBehaviour:
   cardDescription: Deal 6 damage
   cardEnergy: 3
   cardArt: {fileID: 21300000, guid: f1c9eff9c3aea244ca18330292d56e6b, type: 3}
+  cardData: {fileID: 11400000}

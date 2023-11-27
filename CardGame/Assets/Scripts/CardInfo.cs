@@ -9,4 +9,5 @@ public class CardInfo : ScriptableObject
     public string cardDescription;
     public int cardEnergy;
     public Sprite cardArt;
+    public CardInfo cardData;
 }

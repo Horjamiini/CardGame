@@ -28,4 +28,12 @@ public class DeckManager : MonoBehaviour
     return drawnCard;
     }
 
+    public void ShuffleDeck()
+    {
+        foreach(CardInfo card in playerDiscardDeck)
+        {
+            playerDeck.Add(card);
+        }
+        playerDiscardDeck.Clear();
+    }
 }
