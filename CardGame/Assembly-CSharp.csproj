@@ -64,8 +64,8 @@
     <Compile Include="Assets\Scripts\CardAction.cs" />
     <Compile Include="Assets\Scripts\MoveCard.cs" />
     <Compile Include="Assets\Scripts\CardActionHandler.cs" />
-    <Compile Include="Assets\Scripts\UIHandler.cs" />
     <Compile Include="Assets\Scripts\ShuffleAndDraw.cs" />
+    <Compile Include="Assets\Scripts\UIHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
