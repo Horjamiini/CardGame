@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MoveCard : MonoBehaviour
 {
-    public float speed = 3f;
-    public float cardOffset;
+    [SerializeField] private float speed = 3f;
+    [SerializeField] private float cardOffset;
     
     
     // Update is called once per frame

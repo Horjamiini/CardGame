@@ -8,13 +8,13 @@ using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
 {
-    
-    public GameObject cardPrefab;
-    public DeckManager deckManager;
-    public Transform cardSpawnPoint;
-    public float horizontalSpacing = 1f;
-    public float verticalSpacing = 1f;
-    public float cardWidth = 100f;
+
+    [SerializeField] private GameObject cardPrefab;
+    [SerializeField] private DeckManager deckManager;
+    [SerializeField] private Transform cardSpawnPoint;
+    [SerializeField] private float horizontalSpacing = 1f;
+    [SerializeField] private float verticalSpacing = 1f;
+    [SerializeField] private float cardWidth = 100f;
     
     
     public void DrawCard()

@@ -5,15 +5,13 @@ using UnityEngine.UI;
 
 public class UIHandler : MonoBehaviour
 {
+    [SerializeField] private CardManager cardManager;
     [SerializeField] private DeckManager deckManager;
     [SerializeField] private Text playerDeckNum;
     [SerializeField] private Text discardDeckNum;
     [SerializeField] private Button drawButton;
     // Start is called before the first frame update
-    void Start()
-    {
-        drawButton.onClick.AddListener(ShuffleAndDraw); 
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -23,8 +21,5 @@ public class UIHandler : MonoBehaviour
 
 
     }
-    private void ShuffleAndDraw()
-    {
-        deckManager.ShuffleDeck();
-    }
+
 }

@@ -356,8 +356,13 @@
 "Assets/Scripts/CardManager.cs"
 "Assets/Scripts/CardSpawner.cs"
 "Assets/Scripts/DeckManager.cs"
+"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/EnemyHealthBar.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/InvertedBoi.cs"
 "Assets/Scripts/MoveCard.cs"
-"Assets/Scripts/ShuffleAndDraw.cs"
+"Assets/Scripts/Player.cs"
+"Assets/Scripts/PlayerHealthBar.cs"
 "Assets/Scripts/UIHandler.cs"
 -langversion:9.0
 
